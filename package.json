@@ -1,21 +1,27 @@
 {
-  "name": "koishi-plugin-repeater",
-  "description": "A simple repeater.",
-  "version": "0.0.1",
+  "name": "koishi-plugin-new-repeater",
+  "description": "简单的复读\uD83D\uDC14 可以自定义复读内容和复读概率",
+  "version": "1.0.1",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
+  "homepage": "https://github.com/Apricityx/koishi-plugin-new-repeater.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Apricityx/koishi-plugin-new-repeater.git"
+  },
   "files": [
     "lib",
     "dist"
   ],
   "license": "MIT",
   "scripts": {},
+  "contributors": [
+    "Apricityx <apricityx@qq.com>"
+  ],
   "keywords": [
-    "chatbot",
-    "koishi",
-    "plugin"
+    "repeater"
   ],
   "peerDependencies": {
-    "koishi": "^4.16.4"
+    "koishi": "^4.15.5"
   }
 }
